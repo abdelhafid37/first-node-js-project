@@ -7,7 +7,7 @@ const Article = require("./models/Article");
 
 mongoose
   .connect(
-    "mongodb+srv://abdelhafid:abdelhafid2020@myfirstnodejscluster.hpvv5bt.mongodb.net/?appName=MyFirstNodeJSCluster"
+    "mongodb+srv://lol:lol@myfirstnodejscluster.hpvv5bt.mongodb.net/?appName=MyFirstNodeJSCluster"
   )
   .then(() => {
     console.log("connected successfully");
