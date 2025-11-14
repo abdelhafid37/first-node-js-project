@@ -15,7 +15,7 @@ mongoose
   .catch((error) => {
     console.log("error with connecting with the DB ", error);
   });
-// mongodb+srv://abdelhafid:<db_password>@myfirstnodejscluster.fzhlkph.mongodb.net/?appName=MyFirstNodeJSCluster
+// mongodb+srv://<db_username>:<db_password>@myfirstnodejscluster.fzhlkph.mongodb.net/?appName=MyFirstNodeJSCluster
 
 app.use(express.json());
 
